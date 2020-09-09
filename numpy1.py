@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jul 27 11:02:18 2020
-
-@author: z011348
-"""
 import numpy as np
 import pandas as pd
 import timeit
