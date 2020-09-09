@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Pandas code
-Created on Thu May 21 12:44:43 2020
-
-@author: z011348
-"""
 import pandas as pd
 #import sys
 #sys.path.append('/usr/local/lib/python2.7/site-packages')
