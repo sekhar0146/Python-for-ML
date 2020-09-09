@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jul 30 13:32:10 2020
-
-@author: z011348
-"""
-
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
