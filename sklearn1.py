@@ -30,7 +30,7 @@ from sklearn.model_selection import train_test_split
 
 X_train, X_test, y_train, y_test = train_test_split(x,y, test_size=0.2) 
 
-clf.fit(X_train, y_train)
+clf.fit(X_train, y_train) 
 
 y_pred = clf.predict(X_test)
 # print(y_predicts)
