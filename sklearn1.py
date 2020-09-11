@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Aug  4 15:22:43 2020
-
-@author: z011348
-"""
 # SKLEARN workflow
 
 import pandas as pd
@@ -13,7 +7,7 @@ import numpy as np
 #import warnings
 #warnings.filterwarnings("ignore")
 
-heart_disease = pd.read_csv('C:/Users/z011348/Desktop/ML/input/heart-disease.csv')
+heart_disease = pd.read_csv('C:/Users/Desktop/ML/input/heart-disease.csv')
 
 # create x (Features matrix)
 x = heart_disease.drop("target", axis=1)
@@ -65,7 +59,7 @@ for i in range(10, 100, 10):
 
 # Save the model
 import pickle
-pickle.dump(clf, open("C:/Users/z011348/Desktop/ML/output/random_forest_model_1.pkl", "wb"))
+pickle.dump(clf, open("C:/Users/Desktop/ML/output/random_forest_model_1.pkl", "wb"))
 
-loaded_model = pickle.load(open("C:/Users/z011348/Desktop/ML/output/random_forest_model_1.pkl", "rb"))
+loaded_model = pickle.load(open("C:/Users/Desktop/ML/output/random_forest_model_1.pkl", "rb"))
 print(loaded_model.score(X_test, y_test))
