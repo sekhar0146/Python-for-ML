@@ -1,16 +1,10 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Aug  7 09:39:56 2020
-
-@author: z011348
-"""
 
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-heart_disease = pd.read_csv('C:/Users/z011348/Desktop/ML/input/heart-disease.csv')
-car_sales = pd.read_csv('C:/Users/z011348/Desktop/ML/input/car-sales-extended.csv')
+heart_disease = pd.read_csv('C:/Users/Desktop/ML/input/heart-disease.csv')
+car_sales = pd.read_csv('C:/Users/Desktop/ML/input/car-sales-extended.csv')
 
 X = heart_disease.drop("target", axis=1)
 y = heart_disease["target"]
@@ -92,7 +86,7 @@ print(model.score(X_test, y_test))
 # -------------------------------------------------- 
 # Dealing missing values
 # -------------------------------------------------- 
-car_sales_missing = pd.read_csv('C:/Users/z011348/Desktop/ML/input/car-sales-extended-missing-data.csv')
+car_sales_missing = pd.read_csv('C:/Users/Desktop/ML/input/car-sales-extended-missing-data.csv')
 print(car_sales_missing.isna().sum())
 print(" ")
 # Fill missing data with Pandas
