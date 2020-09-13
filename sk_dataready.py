@@ -113,6 +113,6 @@ transformer = ColumnTransformer([("one_hot",
                                   remainder="passthrough")
 transformed_X = transformer.fit_transform(car_sales_missing)
 #print(transformed_X)
-car_sales_missing_num = pd.DataFrame(transformed_X)
+car_sales_missing_num = pd.DataFrame(transformed_X) 
 print(car_sales_missing_num)
 
