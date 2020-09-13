@@ -1,15 +1,9 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Aug 14 15:29:26 2020
-
-@author: z011348
-"""
 
 import numpy as np
 import pandas as pd
 
 # 
-heart_disease = pd.read_csv('C:/Users/z011348/Desktop/ML/input/heart-disease.csv')
+heart_disease = pd.read_csv('C:/Users/Desktop/ML/input/heart-disease.csv')
 
 #=====================================================================
 # Different evaluation metrics using scikit learn
