@@ -7,7 +7,7 @@ import pandas as pd
 # -----------------------------------------------------------------------
 
 # 
-heart_disease = pd.read_csv('C:/Users/z011348/Desktop/ML/input/heart-disease.csv')
+heart_disease = pd.read_csv('C:/Users/Desktop/ML/input/heart-disease.csv')
 
 # setup random see
 np.random.seed(42)
