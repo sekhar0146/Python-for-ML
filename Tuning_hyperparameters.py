@@ -79,4 +79,4 @@ rs_y_pred = rs_clf.predict(X_test)
 
 # Evaluate the predicions
 print(" ================ Evaluation metrics ===================")
-rs_metrics = evaluate_preds(y_test, rs_y_pred)
+rs_metrics = evaluate_preds(y_test, rs_y_pred) 
