@@ -73,7 +73,3 @@ print("Regressor metrics on the test set")
 print(f"R^2 : {r2_score(y_test, y_pred)}")
 print(f"MAE : {mean_absolute_error(y_test, y_pred)}")
 print(f"MSE : {mean_squared_error(y_test, y_pred)}")
-
-
-
-
