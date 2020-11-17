@@ -90,4 +90,3 @@ print('')
 fpr, tpr, thesholds = roc_curve(y_test, y_test)
 plot_roc_curve(fpr, tpr)
 print(roc_auc_score(y_test, y_test))
-
