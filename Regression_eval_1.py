@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Aug 13 14:20:17 2020
-
-@author: z011348
-"""
-
 """
 Regression model evaluations:
 	- R^2 (pronounced r-squared) or coefficient of determination
